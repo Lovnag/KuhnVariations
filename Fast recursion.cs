@@ -20,7 +20,7 @@ class Program
 				return true;
 			}
 		foreach (int u in g[v])
-			if (Kuhn(pair[u]))
+			if (KuhnFast(pair[u]))
 			{
 				pair[u] = v;
 				return true;
